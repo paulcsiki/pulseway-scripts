@@ -9,9 +9,9 @@
     Purpose/Change: First version
 
 .EXAMPLE
-	Create a Boolean-type Automation Custom Field with "System" set as the context and default value to "No".
+    Create a Boolean-type Automation Custom Field with "System" set as the context and default value to "No".
     Copy and paste the contents of this script into a Pulseway PowerShell Automation Script.
-	Add an output script variable with the name allDisksEncrypted, type Boolean, default value "No", tick the "Set custom field value" checkbox and select the newly created custom field.
+    Add an output script variable with the name allDisksEncrypted, type Boolean, default value "No", tick the "Set custom field value" checkbox and select the newly created custom field.
     Link the newly created script into an Automation Task and run it.
     Create a new report based on the "Task Execution Output" and select the newly create Task as it's data source.
     Run the report to view the results of the script.
